@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
     int arrayLength = getStringArrayLength(sizeof(names), names);
 
-    int result = searchString(names, userInput, 0, arrayLength);
+    int result = searchString(names, userInput, 0, arrayLength - 1);
 
     if (result != -1)
     {
